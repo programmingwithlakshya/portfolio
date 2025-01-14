@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  color: white !important;
+}
+/* wrapper */
+.wrapper{
+  height: auto;
+  width: 100%;
+}
+
+/* header */
+.head{
+  height: 8vh;
+  width: 100%;
+  background-color: #4C585B;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.fl{
+  float: left;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+.fr{
+  float: right;
+  margin-right: 8%;
+  margin-top: 1%;
+}
+
+/* page1 */
+.page1{
+  width: 100%;
+  height: 100vh;
+  background-color: #A5BFCC;
+  /* background-color: #7E99A3 ; */
+}
+.text1{
+  width: 35%;
+  height: 40vh;
+  /* background-color:aqua ; */
+  margin-left: 5%;
+  position: relative;
+  top: 30%;
+  float: left;
+}
+.text1 h2{
+  font-size: 2rem;
+}
+.text1 h1{
+  font-size: 5rem;
+}
+.img1{
+  width: 35%;
+  height: 40vh;
+  /* background-color:aqua ; */
+  margin-right: 5%;
+  position: relative;
+  top: 30%;
+  float: right;
+}
+/* page2 */
+.page2{
+  width: 100%;
+  height: 100vh;
+  background-color: #A5BFCC;
+}
+.bo{
+  text-decoration: underline;
+  position: relative;
+  top: 15%;
+  text-align: center;
+  color: #7E99A3 !important;
+}
+.img2{
+  width: 35%;
+  height: 40vh;
+  /* background-color:aqua ; */
+  margin-left: 5%;
+  position: relative;
+  top: 30%;
+  float: left;
+}
+.text2{
+  width: 45%;
+  height: 70vh;
+  /* background-color:aqua ; */
+  margin-right: 5%;
+  position: relative;
+  top: 20%;
+  float: right;
+}
+.text2 h1{
+  text-align: center;
+}
+.text2 h4{
+  text-align: justify;
+}
+/* page3 */
+.page3{
+  width: 100%;
+  height: 50vh;
+  background-color: #A5BFCC;
+}
+.skc1{
+  float: left;
+  margin-left: 25%;
+  height: 35%;
+  position: relative;
+  top: 20%;
+}
+.skc2{
+  float: left;
+  margin-left: 25%;
+  height: 35%;
+  position: relative;
+  top: 20%;
+}
+
+
+
+/* page4 */
+.page4{
+  height: 70vh;
+  width: 100%;
+  background-color: #A5BFCC;
+  text-align: center;
+}
+.col1{
+  position: relative;
+  top: 17%;
+  height: 50vh;
+  width: 30%;
+  margin-left: 5%;
+  /* background-color: aquamarine; */
+  float: left;
+}
+.col2{
+  position: relative;
+  top: 17%;
+  height: 50vh;
+  width: 30%;
+  /* background-color: aquamarine; */
+  float: left;
+}
+.col3{
+  position: relative;
+  top: 17%;
+  height: 50vh;
+  width: 30%;
+  /* background-color: aquamarine; */
+  float: left;
+}
