@@ -5,6 +5,7 @@ import Hire from './components/Hire';
 import Middle from './components/Middle';
 
 
+
 function App() {
   return (
     <>

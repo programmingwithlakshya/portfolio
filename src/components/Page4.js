@@ -1,11 +1,13 @@
 import React from 'react'
+import Hire from './Hire'
+
 
 function Page4() {
   return (
     <div className='page4' id='page4'>
-        <h1 className='bo'>Contact</h1>
+        <h1 className='bo ct'>Contact</h1>
         <div className='col1'>
-            <h3>CONTACT ME</h3>
+            <h3 className='g5'>CONTACT ME</h3>
             <div className='email'>
                 <br></br>
                 <br></br>
@@ -17,7 +19,6 @@ function Page4() {
                 <br></br>
                 <h3>Phone</h3>
                     <a href="tel:+91 7428704891">+91 7428704891</a>
-                <a href=''></a>
                 </div>
         </div>
         <div className='col2'>
@@ -33,9 +34,6 @@ function Page4() {
                  <h4><i className="bi bi-whatsapp"></i>  Whatsapp</h4>
                 </div>
 
-        </div>
-        <div className='col3'>
-            <h3>Message Me</h3>
         </div>
 
     </div>
