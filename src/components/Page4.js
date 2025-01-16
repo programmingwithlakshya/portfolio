@@ -1,5 +1,4 @@
 import React from 'react'
-import Hire from './Hire'
 
 
 function Page4() {

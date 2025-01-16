@@ -17,10 +17,6 @@
   z-index: 1;
   color: white !important;
 }
-.tdfp{
-  display: none;
-  visibility: hidden;
-}
 
 .fl{
   float: left;
@@ -36,13 +32,10 @@
   color: white !important;
   text-decoration: none;
 }
-.dropdown-toggle{
+
+.h24{
   display: none;
   visibility: hidden;
-}
-.justify-content-end{
-  display: contents;
-  visibility: visible;
 }
 
 /* page1 */
@@ -54,7 +47,7 @@
 }
 .text1{
   width: 35%;
-  height: 40vh;
+  height: auto;
   /* background-color:aqua ; */
   margin-left: 5%;
   position: relative;
@@ -236,15 +229,25 @@ a{
 /* mobile */
 @media screen and (max-width:786px) {
     /* header */
-    .dropdown-toggle{
-      display: contents;
-      visibility: visible;
-    }
-    .justify-content-end{
+    .h21{
       display: none;
       visibility: hidden;
     }
-
+    .h24{
+      display: block;
+      visibility: visible;
+    }
+    .dropdown-menu{
+      background-color: #4C585B !important;
+    }
+    .bg5{
+      color: white !important;
+    }
+    .fl{
+      width: 100%;
+      display: flex;
+      gap: 3%;
+    }
   /* page1 */
   .text1{
       width: 90%;
