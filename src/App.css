@@ -227,7 +227,7 @@ a{
 
 
 /* mobile */
-@media screen and (max-width:786px) {
+@media screen and (max-width:480px) {
     /* header */
     .h21{
       display: none;
@@ -266,8 +266,9 @@ a{
       /* page2 */
 
       .img2{
-        width: 80%;
-        margin-left: 8% ;
+        width: auto;
+        margin-left: auto;
+        height: auto ;
       }
       .page2{
         height: 150vh;
@@ -335,4 +336,138 @@ a{
       }
       
 
+}
+
+/* tablet */
+
+@media screen and (max-width:768px) and (min-width:480px){
+  /* header */
+  .h21{
+    display: none;
+    visibility: hidden;
+  }
+  .h24{
+    display: block;
+    visibility: visible;
+  }
+  .dropdown-menu{
+    background-color: #4C585B !important;
+  }
+  .bg5{
+    color: white !important;
+  }
+  .fl{
+    width: 100%;
+    display: flex;
+    gap: 3%;
+  }
+/* page1 */
+.text1{
+    width: 90%;
+    height: 60vh;
+    margin-left: 5%;
+    position: relative;
+    top: 30%;
+    float: left;
+  }
+  .text1 h2{
+    font-size: 1.7rem;
+  }
+  .text1 h1{
+    font-size: 3.5rem;
+  }
+    /* page2 */
+    .img2{
+      width: auto;
+      margin-left: auto;
+      height: auto ;
+    }
+    .page2{
+      height: 230vh;
+    }
+    .pi{
+      top: 10%;
+    }
+    .text2{
+      width: 90%;
+      height: auto;
+      position: relative;
+      top: 28%;
+    }
+    .text2 h1{
+      font-size: 1.6rem;
+    }
+    .text2 h4{
+      font-size: 1rem;
+    }
+    .text2 h5{
+      font-size: 1rem;
+    }
+    .t3{
+      width: 38%;
+    height: 7vh;
+    }
+    /* page3 */
+
+    .page3{
+      height: 70vh;
+    }
+    .skc1,.skc2{
+      margin-left: 16%;
+    }
+    /* page4 */
+    .page4{
+      height: 110vh;
+    }
+    .col1,.col2{
+      float: none;
+      width: 90%;
+      top: 20%;
+      margin: auto;
+      height: auto;
+    }
+    .col2{
+      top: 30%;
+    }
+    .col2 h3{
+      font-size: 1.1rem;
+    }
+    .g5{
+      display: none;
+      visibility: hidden;
+    }
+
+    /* page5 */
+    .col11,.col12,.col13{
+      width: 90%;
+      height: auto;
+      margin-left: 5%;
+      float: none;
+      top: 20%;
+      margin: auto;
+    }
+    
+
+}
+@media screen and (max-width:1100px)and (min-width:768px){
+  .page2{
+    height: 160vh;
+  }
+  .text1{
+    width: 70%;
+  }
+  .t3{
+    width: 30%;
+  }
+}
+@media screen and (max-width:1208px) and (min-width:1100px){
+  .page2{
+    height: 110vh;
+  }
+  .text1{
+    width: 70%;
+  }
+  .t3{
+    width: 30%;
+  }
 }

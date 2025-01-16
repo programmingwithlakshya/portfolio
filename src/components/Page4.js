@@ -26,11 +26,11 @@ function Page4() {
                 <div className='icon'> 
                     <br></br>
                     <br></br>
-                 <h4><i className="bi bi-instagram"></i>  Instagram</h4>
+                 <h4><i className="bi bi-instagram"></i> <a href='https://www.instagram.com/i_lakshyagarg/?igsh=OXR4bmUyNHdubm54&utm_source=qr#'> Instagram</a></h4>
                  <br></br>
-                 <h4><i className="bi bi-linkedin"></i>  Linkedin</h4>
+                 <h4><i className="bi bi-linkedin"></i> <a href='https://www.linkedin.com/in/lakshya-garg-04ab47204/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'> Linkedin</a></h4>
                  <br></br>
-                 <h4><i className="bi bi-whatsapp"></i>  Whatsapp</h4>
+                 <h4><i className="bi bi-whatsapp"></i> <a href='https://api.whatsapp.com/send/?phone=917428704891&text&type=phone_number&app_absent=0'> Whatsapp</a></h4>
                 </div>
 
         </div>
